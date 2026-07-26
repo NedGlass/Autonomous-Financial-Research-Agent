@@ -1,0 +1,11 @@
+ticker,sector_type
+SHEL.L,integrated_oil_gas
+BP.L,integrated_oil_gas
+XOM,integrated_oil_gas
+TTE.PA,integrated_oil_gas
+NG.L,utility
+NEE,utility
+SSE.L,utility
+ORSTED.CO,renewable
+RWE.DE,renewable
+DRX.L,renewable
