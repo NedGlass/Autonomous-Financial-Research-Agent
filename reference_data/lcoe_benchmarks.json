@@ -1,0 +1,38 @@
+
+{
+  "onshore_wind": {
+    "lcoe_usd_per_mwh_low": 37,
+    "lcoe_usd_per_mwh_high": 99,
+    "basis": "unsubsidized",
+    "source": "Lazard's Levelized Cost of Energy+ (LCOE+), Version 19.0 (2026 report)",
+    "publication_year": 2026
+  },
+  "offshore_wind": {
+    "lcoe_usd_per_mwh_low": 105,
+    "lcoe_usd_per_mwh_high": 167,
+    "basis": "unsubsidized",
+    "source": "Lazard's Levelized Cost of Energy+ (LCOE+), Version 19.0 (2026 report)",
+    "publication_year": 2026
+  },
+  "utility_scale_solar": {
+    "lcoe_usd_per_mwh_low": 40,
+    "lcoe_usd_per_mwh_high": 98,
+    "basis": "unsubsidized",
+    "source": "Lazard's Levelized Cost of Energy+ (LCOE+), Version 19.0 (2026 report)",
+    "publication_year": 2026
+  },
+  "gas_combined_cycle": {
+    "lcoe_usd_per_mwh_low": 51,
+    "lcoe_usd_per_mwh_high": 129,
+    "basis": "unsubsidized",
+    "source": "Lazard's Levelized Cost of Energy+ (LCOE+), Version 19.0 (2026 report)",
+    "publication_year": 2026
+  },
+  "nuclear": {
+    "lcoe_usd_per_mwh_low": 175,
+    "lcoe_usd_per_mwh_high": 255,
+    "basis": "unsubsidized",
+    "source": "Lazard's Levelized Cost of Energy+ (LCOE+), Version 19.0 (2026 report)",
+    "publication_year": 2026
+  }
+}
