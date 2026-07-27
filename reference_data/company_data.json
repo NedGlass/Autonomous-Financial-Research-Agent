@@ -1,0 +1,138 @@
+{
+    "SHEL.L": {
+        "sector_type": "integrated_oil_gas",
+        "fiscal_year": 2025,
+        "source": "Shell plc Annual Report and Accounts 2025",
+        "oil_gas": {
+            "production_boed": 2931507,
+            "proven_reserves_boe": 8123000000
+        },
+        "generation": null
+    },
+    "BP.L": {
+        "sector_type": "integrated_oil_gas",
+        "fiscal_year": 2025,
+        "source": "BP Annual Report and Form 20-F 2025",
+        "oil_gas": {
+            "production_boed": 2312000,
+            "proven_reserves_boe": 6191000000
+        },
+        "generation": null
+    },
+    "XOM": {
+        "sector_type": "integrated_oil_gas",
+        "fiscal_year": 2025,
+        "source": "Exxon Mobil Corporation Form 10-K (FY2025)",
+        "oil_gas": {
+            "production_boed": 4736000,
+            "proven_reserves_boe": 19311000000
+        },
+        "generation": null
+    },
+    "TTE.PA": {
+        "sector_type": "integrated_oil_gas",
+        "fiscal_year": 2025,
+        "source": "TotalEnergies Universal Registration Document 2025",
+        "oil_gas": {
+            "production_boed": 2528767,
+            "proven_reserves_boe": 11218000000
+        },
+        "generation": null
+    },
+    "IBE.MC": {
+        "sector_type": "utility",
+        "fiscal_year": 2025,
+        "source": "Iberdrola Integrated Report 2026",
+        "oil_gas": null,
+        "generation": {
+            "capacity_mw": 58343,
+            "mix_pct": {
+                "gas": 13.7,
+                "wind": 41.4,
+                "nuclear": 5.7,
+                "hydro": 23.5,
+                "other": 15.8
+            }
+        }
+    },
+    "NEE": {
+        "sector_type": "utility",
+        "fiscal_year": 2025,
+        "source": "NextEra Energy, Inc. Form 10-K, FY2025",
+        "oil_gas": null,
+        "generation": {
+            "capacity_mw": 78915,
+            "mix_pct": {
+                "gas": 33.1,
+                "wind": 28.4,
+                "nuclear": 7.3,
+                "hydro": 0.0,
+                "other": 31.2
+            }
+        }
+    },
+    "SSE.L": {
+        "sector_type": "utility",
+        "fiscal_year": 2026,
+        "source": "SSE plc Annual Report 2026",
+        "oil_gas": null,
+        "generation": {
+            "capacity_mw": 11532,
+            "mix_pct": {
+                "gas": 53.9,
+                "wind": 31.1,
+                "nuclear": 0.0,
+                "hydro": 12.7,
+                "other": 2.4
+            }
+        }
+    },
+    "ORSTED.CO": {
+        "sector_type": "renewable",
+        "fiscal_year": 2025,
+        "source": "Ørsted Annual Report 2025",
+        "oil_gas": null,
+        "generation": {
+            "capacity_mw": 12911,
+            "mix_pct": {
+                "gas": 6.8,
+                "wind": 71.2,
+                "nuclear": 0.0,
+                "hydro": 0.0,
+                "other": 21.9
+            }
+        }
+    },
+    "RWE.DE": {
+        "sector_type": "renewable",
+        "fiscal_year": 2025,
+        "source": "RWE Annual Report 2025",
+        "oil_gas": null,
+        "generation": {
+            "capacity_mw": 46830,
+            "mix_pct": {
+                "gas": 34.2,
+                "wind": 27.8,
+                "nuclear": 0,
+                "hydro": 1,
+                "other": 37
+            }
+        }
+    },
+    "DRX.L": {
+        "sector_type": "renewable",
+        "fiscal_year": 2025,
+        "source": "Drax Group plc Annual Report and Accounts 2025",
+        "oil_gas": null,
+        "generation": {
+            "capacity_mw": 3100,
+            "mix_pct": {
+                "gas": 0,
+                "wind": 0,
+                "nuclear": 0,
+                "hydro": 16.1,
+                "other": 83.9
+            }
+        }
+    }
+}
