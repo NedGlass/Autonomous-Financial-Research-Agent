@@ -5,19 +5,28 @@ def get_income_statement(ticker: str) -> dict:
     df = yf.Ticker(ticker).income_stmt
     if df.empty:
         return {}
-    return df.iloc[:, 0].dropna().to_dict()
+    result = {}
+    for col in df.columns:
+        result[col.year] = df[col].dropna().to_dict()
+    return result
 
 def get_balance_sheet(ticker: str) -> dict:
     df = yf.Ticker(ticker).balance_sheet
     if df.empty:
         return {}
-    return df.iloc[:, 0].dropna().to_dict()
+    result = {}
+    for col in df.columns:
+        result[col.year] = df[col].dropna().to_dict()
+    return result
 
 def get_cash_flow(ticker: str) -> dict:
     df = yf.Ticker(ticker).cash_flow
     if df.empty:
         return {}
-    return df.iloc[:, 0].dropna().to_dict()
+    result = {}
+    for col in df.columns:
+        result[col.year] = df[col].dropna().to_dict()
+    return result
 
 def get_market_data(ticker: str) -> dict:
     info = yf.Ticker(ticker).info
