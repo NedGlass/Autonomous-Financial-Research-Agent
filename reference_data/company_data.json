@@ -7,7 +7,23 @@
             "production_boed": 2931507,
             "proven_reserves_boe": 8123000000
         },
-        "generation": null
+        "generation": null,
+        "capex": {
+            "total_capex": 20900,
+            "currency": "USD_million",
+            "low_carbon_capex": 2000,
+            "low_carbon_capex_pct": 9.6,
+            "basis": "company_disclosed_segment",
+            "fiscal_year": 2025,
+            "source": "Shell plc Annual Report and Accounts 2025"
+        },
+        "emissions": {
+            "metric": "carbon_intensity_kg_co2e_per_boe",
+            "value": null,
+            "basis": "not_disclosed",
+            "fiscal_year": 2025,
+            "source": null
+        }
     },
     "BP.L": {
         "sector_type": "integrated_oil_gas",
@@ -17,7 +33,23 @@
             "production_boed": 2312000,
             "proven_reserves_boe": 6191000000
         },
-        "generation": null
+        "generation": null,
+        "capex": {
+            "total_capex": 14533,
+            "currency": "USD_million",
+            "low_carbon_capex": 464,
+            "low_carbon_capex_pct": 3.2,
+            "basis": "company_disclosed_segment",
+            "fiscal_year": 2025,
+            "source": "BP plc Fourth Quarter and Full Year 2025 Results, 10 February 2026"
+        },
+        "emissions": {
+            "metric": "carbon_intensity_kg_co2e_per_boe",
+            "value": 16.5,
+            "basis": "disclosed_upstream_per_boe",
+            "fiscal_year": 2025,
+            "source": "BP ESG Datasheet 2025, March 2026"
+        }
     },
     "XOM": {
         "sector_type": "integrated_oil_gas",
@@ -27,7 +59,23 @@
             "production_boed": 4736000,
             "proven_reserves_boe": 19311000000
         },
-        "generation": null
+        "generation": null,
+        "capex": {
+            "total_capex": 29000,
+            "currency": "USD_million",
+            "low_carbon_capex": null,
+            "low_carbon_capex_pct": null,
+            "basis": "not_disclosed",
+            "fiscal_year": 2025,
+            "source": "Exxon Mobil Corporation Form 10-K (FY2025)"
+        },
+        "emissions": {
+            "metric": "carbon_intensity_kg_co2e_per_boe",
+            "value": null,
+            "basis": "not_disclosed",
+            "fiscal_year": 2025,
+            "source": null
+        }
     },
     "TTE.PA": {
         "sector_type": "integrated_oil_gas",
@@ -37,7 +85,23 @@
             "production_boed": 2528767,
             "proven_reserves_boe": 11218000000
         },
-        "generation": null
+        "generation": null,
+        "capex": {
+            "total_capex": 17100,
+            "currency": "USD_million",
+            "low_carbon_capex": 3500,
+            "low_carbon_capex_pct": 20.5,
+            "basis": "company_disclosed_segment",
+            "fiscal_year": 2025,
+            "source": "TotalEnergies SE Fourth Quarter and Full Year 2025 Results"
+        },
+        "emissions": {
+            "metric": "carbon_intensity_kg_co2e_per_boe",
+            "value": 17.0,
+            "basis": "disclosed_upstream_per_boe",
+            "fiscal_year": 2025,
+            "source": "TotalEnergies Sustainability & Climate 2026 Progress Report"
+        }
     },
     "IBE.MC": {
         "sector_type": "utility",
@@ -53,6 +117,22 @@
                 "hydro": 23.5,
                 "other": 15.8
             }
+        },
+        "capex": {
+            "total_capex": 12563,
+            "currency": "EUR_million",
+            "low_carbon_capex": 11671,
+            "low_carbon_capex_pct": 92.9,
+            "basis": "eu_taxonomy_aligned",
+            "fiscal_year": 2025,
+            "source": "Iberdrola Integrated Report 2026"
+        },
+        "emissions": {
+            "metric": "grid_emissions_intensity_g_co2_per_kwh",
+            "value": 39.0,
+            "basis": "disclosed_grid_point_of_generation",
+            "fiscal_year": 2025,
+            "source": "Iberdrola Integrated Report 2026"
         }
     },
     "NEE": {
@@ -69,6 +149,22 @@
                 "hydro": 0.0,
                 "other": 31.2
             }
+        },
+        "capex": {
+            "total_capex": 24606,
+            "currency": "USD_million",
+            "low_carbon_capex": null,
+            "low_carbon_capex_pct": null,
+            "basis": "not_disclosed",
+            "fiscal_year": 2025,
+            "source": "NextEra Energy, Inc. Fourth Quarter and Full Year 2025 Earnings Release, 27 January 2026"
+        },
+        "emissions": {
+            "metric": "grid_emissions_intensity_g_co2_per_kwh",
+            "value": 166.1,
+            "basis": "disclosed_grid_point_of_generation",
+            "fiscal_year": 2024,
+            "source": "NextEra Energy, Inc. Sustainability Resources 2025 (FY2024 data)"
         }
     },
     "SSE.L": {
@@ -85,6 +181,22 @@
                 "hydro": 12.7,
                 "other": 2.4
             }
+        },
+        "capex": {
+            "total_capex": 3585.6,
+            "currency": "GBP_million",
+            "low_carbon_capex": 3298.8,
+            "low_carbon_capex_pct": 92.0,
+            "basis": "eu_taxonomy_aligned",
+            "fiscal_year": 2026,
+            "source": "SSE plc Annual Report 2026"
+        },
+        "emissions": {
+            "metric": "grid_emissions_intensity_g_co2_per_kwh",
+            "value": 194.0,
+            "basis": "disclosed_grid_point_of_generation",
+            "fiscal_year": 2026,
+            "source": "SSE plc Annual Report 2026"
         }
     },
     "ORSTED.CO": {
@@ -101,6 +213,22 @@
                 "hydro": 0.0,
                 "other": 21.9
             }
+        },
+        "capex": {
+            "total_capex": 58698,
+            "currency": "DKK_million",
+            "low_carbon_capex": 58111,
+            "low_carbon_capex_pct": 99.0,
+            "basis": "eu_taxonomy_aligned",
+            "fiscal_year": 2025,
+            "source": "Ørsted Annual Report 2025"
+        },
+        "emissions": {
+            "metric": "grid_emissions_intensity_g_co2_per_kwh",
+            "value": 4.0,
+            "basis": "disclosed_grid_point_of_generation",
+            "fiscal_year": 2025,
+            "source": "Ørsted Annual Report 2025"
         }
     },
     "RWE.DE": {
@@ -117,6 +245,22 @@
                 "hydro": 1,
                 "other": 37
             }
+        },
+        "capex": {
+            "total_capex": 11887,
+            "currency": "EUR_million",
+            "low_carbon_capex": 11174,
+            "low_carbon_capex_pct": 94.0,
+            "basis": "eu_taxonomy_aligned",
+            "fiscal_year": 2025,
+            "source": "RWE Annual Report 2025"
+        },
+        "emissions": {
+            "metric": "grid_emissions_intensity_g_co2_per_kwh",
+            "value": 415.0,
+            "basis": "disclosed_grid_point_of_generation",
+            "fiscal_year": 2025,
+            "source": "RWE Annual Report 2025"
         }
     },
     "DRX.L": {
@@ -133,6 +277,22 @@
                 "hydro": 16.1,
                 "other": 83.9
             }
+        },
+        "capex": {
+            "total_capex": 202,
+            "currency": "GBP_million",
+            "low_carbon_capex": null,
+            "low_carbon_capex_pct": null,
+            "basis": "not_disclosed",
+            "fiscal_year": 2025,
+            "source": "Drax Group plc Annual Report and Accounts 2025"
+        },
+        "emissions": {
+            "metric": "grid_emissions_intensity_g_co2_per_kwh",
+            "value": 87.1,
+            "basis": "disclosed_lifecycle_supply_chain",
+            "fiscal_year": 2025,
+            "source": "Drax Group plc Annual Report and Accounts 2025"
         }
     }
 }
