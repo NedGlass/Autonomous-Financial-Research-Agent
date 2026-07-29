@@ -28,11 +28,7 @@ Production figures are rounded to whole numbers, not kept to several decimal pla
 
 ## What doesn't belong in this file
 
-Reserve life (reserves divided by production) isn't stored here, it's a calculated figure, not something actually printed in an annual report. So it gets calculated later in Phase 3 instead. Converting a single sourced figure into a different unit (eg. annual to daily) is fine to do here, but combining two separate figures into a new metric isn't. This keeps the file as raw data rather than a mix of raw and derived.
-
-## Gaps to watch for
-
-NG.L was in the original ticker list but was swapped out for IBE after research confirmed National Grid is primarily a network operator with no disclosed generation mix, unlike the other utilities.
+Reserve life (reserves divided by production) isn't stored here, it's a calculated figure, not something actually printed in an annual report. So it gets calculated later instead. Converting a single sourced figure into a different unit (eg. annual to daily) is fine to do here, but combining two separate figures into a new metric isn't. This keeps the file as raw data rather than a mix of raw and derived.
 
 ## Generation capacity and mix (utilities and renewables)
 
@@ -72,11 +68,11 @@ Iberdrola, SSE, Ørsted and RWE all report a percentage of capex classified as E
 
 Shell, BP and TotalEnergies each publish a low-carbon capex figure too, but they don't define the boundary the same way. Shell's Low Carbon Energy Solutions line sits inside a broader Renewables and Energy Solutions segment. BP's line is narrower, sitting specifically inside its gas and low carbon energy segment. TotalEnergies' figure is mostly its Integrated Power segment. All three numbers are real, taken straight from what each company reports, but don't stack them against each other like they're measuring the same thing, because they're not.
 
-Exxon, NextEra and Drax don't have anything here at all. Exxon folds low carbon spending into Corporate and Financing rather than breaking it out as its own segment, confirmed directly in the 10-K segment note. NextEra doesn't publish a percentage either, even though NEER's spending is overwhelmingly renewables and storage by description alone. Drax doesn't have an equivalent to the EU Taxonomy disclosure since the UK never adopted one, though its annual report does list capex by category (FlexGen, pellet production, BECCS, OCGT) if that's worth coming back to later.
+Exxon, NextEra and Drax don't have anything here at all. Exxon folds low carbon spending into Corporate and Financing rather than breaking it out as its own segment. Checked the 10-K segment note myself, nothing separate there. NextEra doesn't publish a percentage either, even though NEER's spending is overwhelmingly renewables and storage by description alone. Drax doesn't have an equivalent to the EU Taxonomy disclosure since the UK never adopted one, though its annual report does list capex by category (FlexGen, pellet production, BECCS, OCGT) if that's worth coming back to later.
 
-## Emissions intensity
+## Emissions intensity, same story
 
-BP and TotalEnergies both publish an actual upstream Scope 1 and 2 emissions figure per boe, 16.5 and 17 kg CO2e/boe, so these two are directly comparable. Shell doesn't use this convention anywhere, checked the full annual report for any per boe phrasing and there's nothing there. Exxon does publish an intensity figure but on a different basis, tonnes CO2e per 100 tonnes of production rather than per boe, and converting that over would mean guessing at a barrel to tonne density Exxon doesn't actually state, so left it null rather than make that up.
+BP and TotalEnergies both publish an actual upstream Scope 1 and 2 emissions figure per boe, 16.5 and 17 kg CO2e/boe, so these two are directly comparable. Shell doesn't use this convention anywhere, I checked the full annual report for any per boe phrasing and there's nothing there. Exxon does publish an intensity figure but on a different basis, tonnes CO2e per 100 tonnes of production rather than per boe, and converting that over would mean guessing at a barrel to tonne density Exxon doesn't actually state, so left it null rather than make that up.
 
 For the power companies, Iberdrola, NextEra, SSE, Ørsted and RWE all publish a straightforward gCO2/kWh figure for their own generation, so these five line up fine against each other. NextEra's is a year behind the rest though, its most recent confirmed figure covers 2024, not 2025. Drax's number isn't a generation figure at all, it's the average emissions intensity of its biomass supply chain (forestry, processing, transport), which is what it's actually required to report under UK biomass rules. Real number, just not the same kind of number as the other five, so don't put it in the same column without saying so.
 
@@ -90,4 +86,6 @@ Added a basis tag to both capex and emissions so it's obvious later which number
 
 ## Gaps to watch for
 
-Same section as before, adding to it rather than starting a new one. Exxon has no low-carbon capex split and no emissions figure in boe terms, both confirmed absent rather than just not found. NextEra has no low-carbon capex split, and its emissions figure is a year old. Drax has no low-carbon capex split, and its emissions figure is on a different basis to the other power companies.
+NG.L was in the original ticker list but was swapped out for IBE after research confirmed National Grid is primarily a network operator with no disclosed generation mix, unlike the other utilities.
+
+Exxon has no low-carbon capex split and no emissions figure in boe terms. I checked both directly rather than assuming they weren't findable, genuinely not there. NextEra has no low-carbon capex split, and its emissions figure is a year old. Drax has no low-carbon capex split, and its emissions figure is on a different basis to the other power companies.
