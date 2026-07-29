@@ -8,7 +8,12 @@ TOOLS = [
         "description": "Returns a multi-year income statement, balance sheet, cash flow, and market data for a given stock ticker.",
         "input_schema": {
             "type": "object",
-            "properties": {"ticker": {"type": "string", "description": "Stock ticker symbol, eg XOM or SHEL.L"}},
+            "properties": {
+                "ticker": {
+                    "type": "string",
+                    "description": "Stock ticker symbol, eg XOM or SHEL.L",
+                }
+            },
             "required": ["ticker"],
         },
     },
@@ -22,11 +27,17 @@ TOOLS = [
         "description": "Returns manually sourced reference data for a given ticker, reserves/production or generation capacity/mix, capex split, and emissions intensity, depending on sector.",
         "input_schema": {
             "type": "object",
-            "properties": {"ticker": {"type": "string", "description": "Stock ticker symbol, eg XOM or SHEL.L"}},
+            "properties": {
+                "ticker": {
+                    "type": "string",
+                    "description": "Stock ticker symbol, eg XOM or SHEL.L",
+                }
+            },
             "required": ["ticker"],
         },
     },
-]  
+]
+
 
 def call_tool(name: str, tool_input: dict):
     if name == "get_financials":

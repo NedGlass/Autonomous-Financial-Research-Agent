@@ -2,3 +2,4 @@ yfinance
 anthropic
 pandas
 requests
+black
