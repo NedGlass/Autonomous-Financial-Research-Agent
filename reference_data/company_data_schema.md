@@ -1,6 +1,6 @@
 ## Reference data notes
 
-Notes on how company_data.json and lcoe_benchmarks.json were built, and things worth remembering later. JSON can't hold comments so this lives here instead.
+Notes on how company_data.json was built, and things worth remembering later.
 
 ## Source documents
 
