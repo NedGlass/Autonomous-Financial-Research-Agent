@@ -65,3 +65,10 @@ def get_henry_price() -> dict:
         return {}
     latest = rows[0]
     return {'date': latest['period'], 'price': latest['value']}
+
+def get_commodity_prices() -> dict:
+    return {
+        "brent": get_brent_price(),
+        "wti": get_wti_price(),
+        "henry_hub": get_henry_price()
+    }
